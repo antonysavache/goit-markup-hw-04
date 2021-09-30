@@ -1,0 +1,265 @@
+:root {
+  --black-color: black;
+  --white-color: #ffffff;
+  --hover-color: #2196f3;
+  --h-color: #212121;
+  --bg-color: #2f303a;
+  --border-solid: #ececec;
+  --content-color: #757575;
+  --color-boxshadow: rgba(0, 0, 0, 0.15);
+  --our-team-bg: #f5f4fa;
+  --button-color: #2196f3;
+  --button-hover: #188ce8;
+  --footer-contacts: rgba(255, 255, 255, 0.6);
+  --box-shadow-one: rgba(0, 0, 0, 0.12);
+  --box-shadow-two: rgba(0, 0, 0, 0.14);
+  --box-shadow-three: rgba(0, 0, 0, 0.2);
+}
+
+
+.texthello {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  /* or 136% */
+margin-bottom: 30px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+.button-main {
+  background: var(--button-color);
+  box-shadow: 0px 4px 4px var(--color-boxshadow);
+  border-radius: 4px;
+
+
+  cursor: pointer;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 187%;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 0px;
+  color: var(--white-color);
+  width: 200px;
+height: 50px;
+}
+
+.button-main:hover {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.firstsection {
+  height: 600px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.firstsec-bg {
+  background-image: linear-gradient( rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4) ),  url('/img/hero-bg.jpeg');
+  background-size: cover;
+}
+
+.menu-feature {
+  display: flex;
+ padding-top: 94px;
+justify-content: center;
+}
+
+.li-menu-feature {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  margin-right: 30px;
+}
+
+.li-menu-feature:last-child {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+.feature {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 136%;
+  white-space: nowrap;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--h-color);
+  display: flex;
+  justify-content: flex-start;
+}
+
+.whatarewedo-sec {
+  padding-bottom: 94px;
+}
+
+.whtrwd-and-rtm,
+h2 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 136%;
+  letter-spacing: 0.03em;
+  white-space: nowrap;
+  color: var(--h-color);
+  display: flex;
+justify-content: center;
+padding-top: 94px;
+padding-bottom: 50px;
+}
+
+.pic {
+  display: flex;
+  margin-right: 30px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-people {
+  display: flex;
+}
+
+.sectionourteam {
+  padding-bottom: 94px;
+}
+
+.ourteam-bg {
+  background: var(--our-team-bg);
+}
+
+.name-box {
+  background: var(--white-color);
+  box-shadow: 0px 1px 3px var(--box-shadow-one),
+    0px 1px 1px var(--box-shadow-two), 0px 2px 1px var(--box-shadow-three);
+  border-radius: 0px 0px 4px 4px;
+  margin-right: 30px;
+
+}
+
+.name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 136%;
+  /* identical to box height */
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--h-color);
+}
+
+.position {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 136%;
+  white-space: nowrap;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--content-color);
+}
+
+
+.div-feature-icons {
+  display: flex;
+  width: 270px;
+  height: 120px;
+  background-color:var(--our-team-bg);
+  padding: 25px 102px 25px 102px;
+}
+
+.section-clients {
+  display: flex;
+}
+
+.client-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 30px;
+}
+
+
+
+.client-links:last-child {
+margin-right: 0px;
+}
+
+.clients-icons {
+  fill: red;
+}
+
+.icons-clients {
+  width: 106px;
+  height: 60px;
+  fill: var(--content-color);
+  display: flex;
+
+}
+
+.client-links-border {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--content-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.client-links:hover .client-links-border .icons-clients{
+  fill: var(--hover-color);
+}
+
+.client-links-border:hover {
+  border: 1px solid var(--hover-color);
+}
+
+.buttons-social-links {
+  padding: 0;
+  border: none;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  background-color: var(--white-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.buttons-social-links:hover {
+  background-color: var(--hover-color);
+}
+
+.buttons-social-links:hover .icons-social-links {
+  fill: var(--white-color) ;
+}
+
+.section-our-clients {
+  padding-bottom: 94px;
+}
+
