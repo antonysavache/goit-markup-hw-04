@@ -17,6 +17,7 @@
 }
 
 
+
 .texthello {
   font-family: Roboto;
   font-style: normal;
@@ -82,11 +83,16 @@ height: 50px;
   flex-direction: column;
 }
 
+.our-benefits {
+  padding-bottom: 94px;
+  padding-top: 94px;
+}
+
 .menu-feature {
   display: flex;
- padding-top: 94px;
 justify-content: center;
 margin-left: -30px;
+margin-top: -50px;
 }
 
 .li-menu-feature {
@@ -94,13 +100,11 @@ margin-left: -30px;
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-left: 30px;
+  margin-top: 50px;
   flex-basis: calc((100% - 120px) / 4);
 }
 
-.li-menu-feature:last-child {
-  margin-right: 0;
-  padding-right: 0;
-}
+
 
 .feature {
   font-family: Roboto;
@@ -116,9 +120,7 @@ margin-left: -30px;
   justify-content: flex-start;
 }
 
-.whatarewedo-sec {
-  padding-bottom: 94px;
-}
+
 
 .whtrwd-and-rtm,
 h2 {
@@ -132,22 +134,24 @@ h2 {
   color: var(--h-color);
   display: flex;
 justify-content: center;
-padding-top: 94px;
 margin-bottom: 50px;
 }
 
 
 
-.img {
+.whatarewedo-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -50px;
 }
 
-.pic {
+.whatarewedo-list-li {
   display: flex;
   flex-wrap: wrap;
   margin-left: 30px;
+  margin-top: 50px;
   flex-basis: calc((100% - 90px) / 3);
 }
 
@@ -159,11 +163,12 @@ margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
+  margin-top: -50px;
 }
 
 .sectionourteam {
-  padding-bottom: 94px;
   background-color:var(--our-team-bg);
+  padding-top: 94px;
 }
 
 
@@ -173,12 +178,10 @@ margin-bottom: 50px;
     0px 1px 1px var(--box-shadow-two), 0px 2px 1px var(--box-shadow-three);
   border-radius: 0px 0px 4px 4px;
   margin-left: 30px;
+  margin-top: 50px;
   flex-basis: calc((100% - 120px) / 4);
 }
 
-.name-box:first-child{
-  margin-left: 0px;
-}
 
 .div-name-box {
   padding: 30px 32px 30px 32px;
@@ -223,6 +226,7 @@ margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
+  margin-top: -50px;
 }
 
 .client-links {
@@ -230,12 +234,8 @@ margin-bottom: 50px;
   justify-content: center;
   align-items: center;
   margin-left: 30px;
+  margin-top: 50px;
   flex-basis: calc((100% - 180px) / 6);
-}
-
-
-.client-links:first-child {
-  margin-left: 0px;
 }
 
 
@@ -293,5 +293,6 @@ margin-bottom: 50px;
 
 .section-our-clients {
   padding-bottom: 94px;
+  padding-top: 94px;
 }
 

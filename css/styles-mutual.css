@@ -96,6 +96,12 @@ body {
   padding-bottom: 94px;
 }
 
+.header {
+  border-bottom: solid var(--border-solid) 1px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
 .header-info {
     display: flex;
     align-items: center;
@@ -125,10 +131,7 @@ body {
 
 /*head start*/
 
-.header {
-  border-bottom: solid var(--border-solid) 1px;
-  padding-bottom: 0px;
-}
+
 
 img {
   margin: 0px;
