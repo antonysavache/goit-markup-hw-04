@@ -68,9 +68,18 @@ height: 50px;
 
 }
 
-.firstsec-bg {
-  background-image: linear-gradient( rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4) ),  url('./img/hero-bg.jpeg');
+.hero-section {
+  background-image: linear-gradient( rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4) ),  url('/img/hero-bg.jpeg');
   background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.div-hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .menu-feature {
@@ -141,11 +150,9 @@ padding-bottom: 50px;
 
 .sectionourteam {
   padding-bottom: 94px;
+  background-color:var(--our-team-bg);
 }
 
-.ourteam-bg {
-  background: var(--our-team-bg);
-}
 
 .name-box {
   background: var(--white-color);

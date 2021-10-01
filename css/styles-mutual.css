@@ -26,6 +26,10 @@ h2 {
   margin-right: auto;
 }
 
+ul {
+  margin: 0;
+}
+
 p {
   display: block;
   margin-block-start: 0;
@@ -94,9 +98,9 @@ body {
 }
 
 .header-info {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .div-contacts {
@@ -105,13 +109,14 @@ body {
 
 .menu {
   display: flex;
-  justify-content: space-between;
-  align-content: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .ul-menu {
   display: flex;
   align-items: center;
+  padding-left: 0;
 }
 
 .li-menu {
@@ -121,9 +126,9 @@ body {
 
 /*head start*/
 
-.head {
-  height: 80px;
-  display: flex;
+.header {
+  border-bottom: solid var(--border-solid) 1px;
+
 }
 
 .webstudio {
@@ -168,11 +173,12 @@ body {
 
 .colorstudio-top {
   color: var(--black-color);
+  padding-right: 94px;
 }
 
 .li-head-button {
+  padding-right: 50px;
   display: flex;
-  margin-left: 50px;
 }
 
 .head-button {
@@ -184,6 +190,8 @@ body {
   letter-spacing: 0.02em;
   font-size: 14px;
   color: var(--h-color);
+
+  display: flex;
 }
 
 .active {
@@ -237,8 +245,8 @@ ul {
 .footer-con {
   padding-top: 60px;
   padding-bottom: 60px;
-  background-color: var(--bg-color);
   display: flex;
+  background-color: var(--bg-color);
 }
 
 .lowwebstudio {
@@ -339,6 +347,7 @@ display: flex;
   line-height: 136%;
   margin-bottom: 20px;
   color: var(--white-color);
+  margin-top: 12px;
 }
 
 .buttons-social-links-footer {

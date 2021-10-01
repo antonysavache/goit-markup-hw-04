@@ -1,0 +1,106 @@
+h1,
+h2 {
+  margin: 0px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  margin: 0;
+}
+
+p {
+  display: block;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  letter-spacing: 3%;
+}
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+
+}
+
+a,
+ul {
+    margin: 0;
+    text-decoration: none
+}
+
+.menu {
+    display: flex;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+}
+
+.ul-menu {
+    display: flex;
+    align-items: center;
+    padding-left: 0;
+}
+
+.icons-contacts {
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    fill: var(--content-color);
+  }
+  
+  .icons-contacts:hover {
+    fill: var(--hover-color);
+  }
+  
+  
+  .contacts-top:hover .icons-contacts {
+    fill: var(--hover-color);
+  }
+  
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+}
+
+.header {
+    border-bottom: solid black 1px;
+}
+
+.div-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.colorstudio-top {
+    padding-right: 94px;
+}
+
+
+.li-head-button {
+    padding-right: 50px;
+    display: flex;
+}
+
+.firstsection {
+  background-image: linear-gradient( rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4) ),  url('/img/hero-bg.jpeg');
+  background-size: cover;
+}
+
+.pic-list {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: -30px;
+  margin-left: -30px;
+  padding-left: 0px;
+}
+
+.box {
+  margin-top: 30px;
+  margin-left: 30px;
+}
