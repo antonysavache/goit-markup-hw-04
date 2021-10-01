@@ -71,8 +71,12 @@
 
 .button-li {
   margin-right: 8px;
-  padding-top: 94px;
-  padding-bottom: 50px;
+margin-top: 94px;
+margin-bottom: 50px;
+}
+
+.button-li:last-child {
+  margin-right: 0px;
 }
 
 .pic-list {

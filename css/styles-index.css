@@ -86,13 +86,15 @@ height: 50px;
   display: flex;
  padding-top: 94px;
 justify-content: center;
+margin-left: -30px;
 }
 
 .li-menu-feature {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  margin-right: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 120px) / 4);
 }
 
 .li-menu-feature:last-child {
@@ -131,21 +133,32 @@ h2 {
   display: flex;
 justify-content: center;
 padding-top: 94px;
-padding-bottom: 50px;
+margin-bottom: 50px;
 }
 
-.pic {
-  display: flex;
-  margin-right: 30px;
-}
+
 
 .img {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+.pic {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 30px;
+  flex-basis: calc((100% - 90px) / 3);
+}
+
+.pic:first-child {
+  margin-left: 0px;
 }
 
 .menu-people {
   display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
 }
 
 .sectionourteam {
@@ -159,8 +172,16 @@ padding-bottom: 50px;
   box-shadow: 0px 1px 3px var(--box-shadow-one),
     0px 1px 1px var(--box-shadow-two), 0px 2px 1px var(--box-shadow-three);
   border-radius: 0px 0px 4px 4px;
-  margin-right: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 120px) / 4);
+}
 
+.name-box:first-child{
+  margin-left: 0px;
+}
+
+.div-name-box {
+  padding: 30px 32px 30px 32px;
 }
 
 .name {
@@ -200,20 +221,24 @@ padding-bottom: 50px;
 
 .section-clients {
   display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
 }
 
 .client-links {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 30px;
+  margin-left: 30px;
+  flex-basis: calc((100% - 180px) / 6);
 }
 
 
-
-.client-links:last-child {
-margin-right: 0px;
+.client-links:first-child {
+  margin-left: 0px;
 }
+
+
 
 .clients-icons {
   fill: red;

@@ -87,14 +87,13 @@ body {
 .social-links-list {
   display: flex;
   justify-content: space-between;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding: 16px 32px 32px 32px;
   flex-direction: row;
 }
 
 .section {
   justify-content: space-between;
+  padding-top: 94ox;
+  padding-bottom: 94px;
 }
 
 .header-info {
@@ -109,8 +108,8 @@ body {
 
 .menu {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 
 .ul-menu {
@@ -128,7 +127,12 @@ body {
 
 .header {
   border-bottom: solid var(--border-solid) 1px;
+  padding-bottom: 0px;
+}
 
+img {
+  margin: 0px;
+  padding: 0px;
 }
 
 .webstudio {
