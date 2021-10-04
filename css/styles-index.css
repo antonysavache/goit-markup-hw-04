@@ -16,8 +16,6 @@
   --box-shadow-three: rgba(0, 0, 0, 0.2);
 }
 
-
-
 .texthello {
   font-family: Roboto;
   font-style: normal;
@@ -25,7 +23,7 @@
   font-size: 44px;
   line-height: 136%;
   /* or 136% */
-margin-bottom: 30px;
+  margin-bottom: 30px;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -36,7 +34,6 @@ margin-bottom: 30px;
   background: var(--button-color);
   box-shadow: 0px 4px 4px var(--color-boxshadow);
   border-radius: 4px;
-
 
   cursor: pointer;
   font-family: Roboto;
@@ -50,7 +47,7 @@ margin-bottom: 30px;
   border: 0px;
   color: var(--white-color);
   width: 200px;
-height: 50px;
+  height: 50px;
 }
 
 .button-main:hover {
@@ -66,11 +63,11 @@ height: 50px;
   flex-wrap: wrap;
   display: flex;
   flex-direction: column;
-
 }
 
 .hero-section {
-  background-image: linear-gradient( rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4) ),  url('/img/hero-bg.jpeg');
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.4)),
+    url("/img/hero-bg.jpeg");
   background-size: cover;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -90,9 +87,9 @@ height: 50px;
 
 .menu-feature {
   display: flex;
-justify-content: center;
-margin-left: -30px;
-margin-top: -50px;
+  justify-content: center;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .li-menu-feature {
@@ -100,11 +97,9 @@ margin-top: -50px;
   justify-content: flex-start;
   flex-wrap: wrap;
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
 }
-
-
 
 .feature {
   font-family: Roboto;
@@ -118,9 +113,8 @@ margin-top: -50px;
   color: var(--h-color);
   display: flex;
   justify-content: flex-start;
+  margin: 30px 0 10px 0;
 }
-
-
 
 .whtrwd-and-rtm,
 h2 {
@@ -133,25 +127,23 @@ h2 {
   white-space: nowrap;
   color: var(--h-color);
   display: flex;
-justify-content: center;
-margin-bottom: 50px;
+  justify-content: center;
+  margin-bottom: 50px;
 }
-
-
 
 .whatarewedo-list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .whatarewedo-list-li {
   display: flex;
   flex-wrap: wrap;
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
 }
 
@@ -163,14 +155,13 @@ margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .sectionourteam {
-  background-color:var(--our-team-bg);
+  background-color: var(--our-team-bg);
   padding-top: 94px;
 }
-
 
 .name-box {
   background: var(--white-color);
@@ -178,10 +169,12 @@ margin-bottom: 50px;
     0px 1px 1px var(--box-shadow-two), 0px 2px 1px var(--box-shadow-three);
   border-radius: 0px 0px 4px 4px;
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
   flex-basis: calc((100% - 120px) / 4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-
 
 .div-name-box {
   padding: 30px 32px 30px 32px;
@@ -213,12 +206,11 @@ margin-bottom: 50px;
   color: var(--content-color);
 }
 
-
 .div-feature-icons {
   display: flex;
   width: 270px;
   height: 120px;
-  background-color:var(--our-team-bg);
+  background-color: var(--our-team-bg);
   padding: 25px 102px 25px 102px;
 }
 
@@ -226,7 +218,7 @@ margin-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   margin-left: -30px;
-  margin-top: -50px;
+  margin-top: -30px;
 }
 
 .client-links {
@@ -234,11 +226,9 @@ margin-bottom: 50px;
   justify-content: center;
   align-items: center;
   margin-left: 30px;
-  margin-top: 50px;
+  margin-top: 30px;
   flex-basis: calc((100% - 180px) / 6);
 }
-
-
 
 .clients-icons {
   fill: red;
@@ -249,7 +239,6 @@ margin-bottom: 50px;
   height: 60px;
   fill: var(--content-color);
   display: flex;
-
 }
 
 .client-links-border {
@@ -262,7 +251,7 @@ margin-bottom: 50px;
   align-items: center;
 }
 
-.client-links:hover .client-links-border .icons-clients{
+.client-links:hover .client-links-border .icons-clients {
   fill: var(--hover-color);
 }
 
@@ -288,11 +277,10 @@ margin-bottom: 50px;
 }
 
 .buttons-social-links:hover .icons-social-links {
-  fill: var(--white-color) ;
+  fill: var(--white-color);
 }
 
 .section-our-clients {
   padding-bottom: 94px;
   padding-top: 94px;
 }
-
