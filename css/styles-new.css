@@ -56,7 +56,8 @@ img {
 
 ul {
   list-style-type: none;
-
+  margin-top: 0;
+  margin-bottom: 0;
   margin-left: 0; /* Отступ слева в браузере IE и Opera */
   padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
