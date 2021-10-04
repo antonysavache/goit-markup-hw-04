@@ -159,6 +159,9 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-top:last-child {
@@ -197,7 +200,9 @@ img {
   letter-spacing: 0.02em;
   font-size: 14px;
   color: var(--h-color);
-
+  transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
 }
 
@@ -295,6 +300,9 @@ display: flex;
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--footer-contacts);
+  transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-prop {
@@ -306,6 +314,9 @@ display: flex;
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--footer-contacts);
+  transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* footer end*/
 
@@ -332,6 +343,10 @@ display: flex;
   height: 12px;
   margin-right: 10px;
   fill: var(--content-color);
+  transition-property: fill;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .icons-contacts:hover {
@@ -369,6 +384,9 @@ display: flex;
   align-items: center;
   cursor: pointer;
   margin-right: 10px;
+  transition-property: background-color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-list-footer {
@@ -381,6 +399,9 @@ display: flex;
   fill: var(--white-color);
   width: 20px;
   height: 20px;
+  transition-property: color;
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons-social-links-footer:hover {
