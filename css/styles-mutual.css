@@ -117,7 +117,6 @@ body {
 }
 
 .ul-menu {
-  position: relative;
   display: flex;
   align-items: center;
   padding-left: 0;
@@ -180,11 +179,6 @@ img {
 }
 
 .li-head-button {
-  position: relative;
-  color: #00a650; /*задаём цвет ссылки*/
-  cursor: pointer;
-  line-height: 1; /*задаём высоту строки*/
-  text-decoration: none; /*убираем подчёркивание*/
   padding-right: 50px;
   display: flex;
 }
@@ -199,8 +193,8 @@ img {
   font-size: 14px;
   color: var(--h-color);
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   display: flex;
 }
 
@@ -213,21 +207,6 @@ img {
   line-height: 136%;
   letter-spacing: 0.02em;
   font-size: 14px;
-}
-
-.active::after {
-  display: block;
-  position: absolute;
-  left: 0; /*изменить на right:0;, чтобы изменить направление подчёркивания */
-  width: 0; /*задаём длинну линии до наведения курсора*/
-  height: 2px; /*задаём ширину линии*/
-  background-color: #00a650; /*задаём цвет линии*/
-  content: "";
-  height: 2px;
-  top: 76px;
-  width: 100%;
-  transition: width;
-  border-bottom: #188ce8;
 }
 
 .head-button:hover,
@@ -312,8 +291,8 @@ ul {
   letter-spacing: 0.03em;
   color: var(--footer-contacts);
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .tel-prop {
@@ -326,8 +305,8 @@ ul {
   letter-spacing: 0.03em;
   color: var(--footer-contacts);
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* footer end*/
 
@@ -355,8 +334,9 @@ ul {
   margin-right: 10px;
   fill: var(--content-color);
   transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .icons-contacts:hover {
@@ -394,8 +374,8 @@ ul {
   cursor: pointer;
   margin-right: 10px;
   transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-list-footer {
@@ -408,8 +388,8 @@ ul {
   width: 20px;
   height: 20px;
   transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+transition-duration: 250ms;
+transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons-social-links-footer:hover {

@@ -56,10 +56,9 @@ img {
 
 ul {
   list-style-type: none;
-  margin-top: 0px;
+
   margin-left: 0; /* Отступ слева в браузере IE и Opera */
   padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
-  margin-bottom: 0px;
 }
 
 p {
@@ -152,9 +151,7 @@ h2 {
   letter-spacing: 0.02em;
   font-size: 14px;
   color: var(--h-color);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
   display: flex;
 }
 
@@ -169,25 +166,12 @@ h2 {
   font-size: 14px;
 }
 
-.active::after {
-  display: block;
-  position: absolute;
-  height: 2px; /*задаём ширину линии*/
-  background-color: var(--button-hover); /*задаём цвет линии*/
-  content: "";
-  height: 2px;
-  top: 51px;
-  width: 100%;
-  transition: width;
-}
-
 .head-button:hover,
 .head-button:focus {
   color: var(--hover-color);
 }
 
 .li-head-button {
-  position: relative;
   margin-right: 50px;
   display: flex;
 }
@@ -217,9 +201,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contacts-top:hover,
@@ -261,9 +242,6 @@ h2 {
   height: 12px;
   margin-right: 10px;
   fill: var(--content-color);
-  transition-property: fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icons-contacts:hover {
@@ -406,36 +384,12 @@ h2 {
   margin-top: -30px;
 }
 
-.whatarewedo-list-li-div {
-  width: 100%;
-  height: 70px;
-  position: absolute;
-  top: 224px;
-  background: rgba(47, 48, 58, 0.8);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.whatarewedo-list-li-div-p {
-  text-transform: uppercase;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 14px;
-  line-height: 16px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--white-color);
-}
-
 .whatarewedo-list-li {
   display: flex;
   flex-wrap: wrap;
   margin-left: 30px;
   margin-top: 30px;
   flex-basis: calc((100% - 90px) / 3);
-  position: relative;
 }
 /*  =============END WHAT ARE WE DO PART==============  */
 
@@ -535,9 +489,6 @@ h2 {
   height: 60px;
   fill: var(--for-small-pics);
   display: flex;
-  transition-property: fill, border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-links-border {
@@ -548,9 +499,6 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition-property: fill, border;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .client-links:hover .client-links-border .icons-clients {
@@ -572,9 +520,6 @@ h2 {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition-property: background-color, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons-social-links:hover {
@@ -644,9 +589,6 @@ h2 {
   line-height: 171%;
   letter-spacing: 0.03em;
   color: var(--footer-contacts);
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* footer end*/
 
@@ -677,9 +619,6 @@ h2 {
   align-items: center;
   cursor: pointer;
   margin-right: 10px;
-  transition-property: background-color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-links-list-footer {
@@ -691,9 +630,6 @@ h2 {
   fill: var(--white-color);
   width: 20px;
   height: 20px;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .buttons-social-links-footer:hover {
@@ -728,9 +664,6 @@ h2 {
     0px 2px 2px var(--box-shadow-one);
   border-radius: 4px;
   padding: 6px 22px 6px 22px;
-  transition-property: background, color, box-shadow, border-radius;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .h3-pics {
@@ -782,18 +715,16 @@ h2 {
   margin-left: -30px;
 }
 
-.portfolio-box {
+.box {
   background: var(--white-color);
+
   box-sizing: border-box;
   margin-top: 30px;
   margin-left: 30px;
   flex-basis: calc((100% - 90px) / 3);
-  transition-property: box-shadow, background;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-box:hover {
+.box:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
